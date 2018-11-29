@@ -45,102 +45,102 @@ class Birthday(object):
 class Mercury(Planet, Birthday):
     def __init__(self):
         #change birthday as desired
-        Planet.__init__(self, 'Mercury', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Mercury', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 87.97
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 mercury = Mercury()
-mercury.calculateplanetage(1980, 01, 01, 87.97) #call your birthday and no_of_days as yyyy, mm, dd, no_of_days respectively
+mercury.calculateplanetage(1980, 1, 1, 87.97) #call your birthday and no_of_days as yyyy, mm, dd, no_of_days respectively
 #mercury.planet_info()
-#mercury.get_age(1980, 01, 01)
+#mercury.get_age(1980, 1, 1)
 
 
 class Venus(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Venus', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Venus', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 224.7
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 venus = Venus()
-venus.calculateplanetage(1980, 01, 01, 224.7)
+venus.calculateplanetage(1980, 1, 1, 224.7)
 
 
 
 class Earth(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Earth', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Earth', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 365.25
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 earth = Earth()
-earth.calculateplanetage(1980, 01, 01, 365.25)
+earth.calculateplanetage(1980, 1, 1, 365.25)
 
 
 
 class Mars(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Mars', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Mars', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 686.98
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 mars = Mars()
-mars.calculateplanetage(1980, 01, 01, 686.98)    
+mars.calculateplanetage(1980, 1, 1, 686.98)    
 
 
 class Jupiter(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Jupiter', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Jupiter', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 4332
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 jupiter = Jupiter()
-jupiter.calculateplanetage(1980, 01, 01, 4332)    
+jupiter.calculateplanetage(1980, 1, 1, 4332)    
 
 
 class Saturn(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Saturn', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Saturn', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 10761
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 saturn = Saturn()
-saturn.calculateplanetage(1980, 01, 01, 10761) 
+saturn.calculateplanetage(1980, 1, 1, 10761) 
 
 
 class Uranus(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Uranus', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Uranus', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
-        no_of_days = 60152
+        no_of_days = 6152
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 uranus = Uranus()
-uranus.calculateplanetage(1980, 01, 01, 60152) 
+uranus.calculateplanetage(1980, 1, 1, 6152) 
 
 
 class Neptune(Planet, Birthday):
     def __init__(self):
-        Planet.__init__(self, 'Neptune', no_of_days=(), year=1980, month=01, day=01)
+        Planet.__init__(self, 'Neptune', no_of_days=(), year=1980, month=1, day=1)
 
     def planet_info(self, no_of_days=()):
         no_of_days = 90411
         print(str(no_of_days) + " days equals one year on " + str(self.name))
 
 neptune = Neptune()
-neptune.calculateplanetage(1980, 01, 01, 90411) 
+neptune.calculateplanetage(1980, 1, 1, 90411) 
 
 
 #why does next planet birthday stop calculating when no_of_days = 16031?    
